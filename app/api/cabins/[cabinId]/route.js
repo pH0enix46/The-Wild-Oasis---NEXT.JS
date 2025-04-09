@@ -1,5 +1,8 @@
 // // //
-import { getBookedDatesByCabinId, getCabin } from "@/app/_library/data-service";
+import {
+  getBookedDatesByCabinId,
+  getCabin,
+} from "@/app/_library/database/data-service";
 
 // creating api endpoint with route handlers
 //  note get post, .....more for nextjs api route.js convention
